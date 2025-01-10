@@ -9,11 +9,3 @@ class Config:
     DB_NAME = os.getenv("DB_NAME", "ecomerce")
 
 
-print("MONGO_URI:", os.getenv("MONGO_URI"))
-print("DB_NAME:", os.getenv("DB_NAME"))
-
-
-from pymongo import MongoClient
-
-client = MongoClient(os.getenv("MONGO_URI"))
-print(client.list_database_names())
