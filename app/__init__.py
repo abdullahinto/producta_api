@@ -11,7 +11,7 @@ app.config.from_object(Config)
 client = MongoClient(app.config["MONGO_URI"])
 db = client[app.config["DB_NAME"]]
 products_collection = db["products"]
-# products_collection.create_index([("name", 1)]) 
+# products_collection.create_index([("name", 1)])      RUN THIS COMMAND IN MONGO SHELL or in .py script just once TO CREATE INDEX
 
 
 
