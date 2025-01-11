@@ -17,7 +17,7 @@ This project is a RESTful API built using the Flask framework. It provides a set
 ## Installation
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/your-repo.git
+    git clone https://github.com/abdullahinto/producta_api.git
     ```
 2. Navigate to the project directory:
     ```bash
