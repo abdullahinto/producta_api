@@ -12,7 +12,7 @@ This project is a RESTful API built using the Flask framework. It provides a set
 ## Requirements
 - Python 3.x
 - Flask
-- Flask-RESTful
+- Pymongo (if You wanna use Mongodb as DB.)
 
 ## Installation
 1. Clone the repository:
